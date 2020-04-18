@@ -1,0 +1,36 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    font: 16px/1.25em "Roboto", "sans-serif";
+    background-color: #e9ecef;
+}
+
+button { outline: 0!important; }
+
+.bg-green { background-color: #7dba5c; }
+
+#logo {
+    width: auto;
+    height: 40px;
+}
+
+
+.font-oswald { font-family: "Oswald"; }
+.font-weight-extra-light { font-weight: 200; }
+
+.text-size-1 { font-size: 1.65rem; line-height: 1.25em; }
+
+.text-cyan { color: #01a093; }
+
+.btn-group #resume {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.dropdown-item:hover { background-color: #7dba5c; }
