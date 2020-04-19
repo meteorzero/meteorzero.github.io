@@ -34,3 +34,67 @@ button { outline: 0!important; }
     text-decoration: none;
     background: #ff0044!important;
 }
+
+.preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    z-index: 9999;
+}
+
+.preloader.aaa {
+    animation: aaa 0.8s linear 1 forwards;
+}
+
+.preloader.closed { display: none; }
+
+.spinner {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+    animation: spin 2s linear infinite forwards;
+}
+
+.spinner::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    animation: spin 1.5s linear infinite forwards;
+}
+
+.spinner::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
+    animation: spin 3s linear infinite forwards;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes aaa {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1, 0.001); }
+    100% { transform: scale(0, 0.001); }
+}
