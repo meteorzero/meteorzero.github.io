@@ -43,8 +43,8 @@ button { outline: 0!important; }
     z-index: 9999;
 }
 
-.preloader.aaa {
-    animation: aaa 0.8s linear 1 forwards;
+.preloader.closing {
+    animation: fold 0.8s linear 1 forwards;
 }
 
 .preloader.closed { display: none; }
@@ -93,7 +93,7 @@ button { outline: 0!important; }
     100% { transform: rotate(360deg); }
 }
 
-@keyframes aaa {
+@keyframes fold {
     0% { transform: scale(1, 1); }
     50% { transform: scale(1, 0.001); }
     100% { transform: scale(0, 0.001); }
