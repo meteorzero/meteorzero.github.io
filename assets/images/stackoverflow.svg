@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 25.1 32" style="enable-background:new 0 0 25.1 32;" xml:space="preserve">
-<style type="text/css">
-	<!-- .st0{fill:#FF0044;} -->
-	.st0{fill:#FFFFFF;}
-</style>
-<g id="StackOverflow_1_">
-	<path id="XMLID_94_" class="st0" d="M17.852,20.483L5.601,17.512l0.594-2.45l12.251,2.971L17.852,20.483"/>
-	<path id="XMLID_93_" class="st0" d="M18.673,17.552L7.447,11.816l1.147-2.245l11.225,5.736L18.673,17.552"/>
-	<path id="XMLID_92_" class="st0" d="M20.402,14.516l-9.493-8.294l1.659-1.898l9.494,8.294L20.402,14.516"/>
-	<path id="XMLID_91_" class="st0" d="M23.014,11.846l-7.08-10.43L18.021,0L25.1,10.431L23.014,11.846"/>
-	<path id="XMLID_90_" class="st0" d="M17.655,23.548L5.068,22.861l0.137-2.518l12.588,0.687L17.655,23.548"/>
-	<path id="XMLID_89_" class="st0" d="M20.265,29.478V19.033h2.519L22.786,32H0l0.001-12.977h2.521v10.456L20.265,29.478"/>
-	<path id="XMLID_50_" class="st0" d="M5.033,24.446h12.692v2.521H5.033V24.446L5.033,24.446z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.1 32">
+<g fill="white">
+	<path d="M17.852,20.483L5.601,17.512l0.594-2.45l12.251,2.971L17.852,20.483"/>
+	<path d="M18.673,17.552L7.447,11.816l1.147-2.245l11.225,5.736L18.673,17.552"/>
+	<path d="M20.402,14.516l-9.493-8.294l1.659-1.898l9.494,8.294L20.402,14.516"/>
+	<path d="M23.014,11.846l-7.08-10.43L18.021,0L25.1,10.431L23.014,11.846"/>
+	<path d="M17.655,23.548L5.068,22.861l0.137-2.518l12.588,0.687L17.655,23.548"/>
+	<path d="M20.265,29.478V19.033h2.519L22.786,32H0l0.001-12.977h2.521v10.456L20.265,29.478"/>
+	<path d="M5.033,24.446h12.692v2.521H5.033V24.446L5.033,24.446z"/>
 </g>
 </svg>
